@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+  <defs>
+    <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7f4ee"/>
+      <stop offset="1" stop-color="#e9e6e2"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#g)"/>
+  <path d="M0 560 C170 480 260 520 405 440 C560 350 690 405 900 310 V1100 H0 Z" fill="#87937f" opacity=".18"/>
+  <path d="M0 650 C210 560 360 610 515 505 C650 420 760 445 900 400 V1100 H0 Z" fill="#5f746e" opacity=".22"/>
+  <rect x="310" y="560" width="120" height="250" rx="56" fill="#3c4039" opacity=".72"/>
+  <circle cx="370" cy="490" r="54" fill="#3c4039" opacity=".72"/>
+  <rect x="250" y="810" width="240" height="34" rx="17" fill="#242522" opacity=".35"/>
+  <text x="80" y="120" fill="#242522" font-family="Georgia,serif" font-size="58" letter-spacing="8">A PLACE YOU FEEL,</text>
+  <text x="80" y="190" fill="#242522" font-family="Georgia,serif" font-size="58" letter-spacing="8">NOT JUST VISIT.</text>
+  <text x="80" y="1010" fill="#242522" font-family="Georgia,serif" font-size="22" letter-spacing="9">VICTORIA FALLS</text>
+</svg>

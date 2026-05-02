@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Victoria Falls — Slow Luxury Goods</title>
+  <meta name="description" content="A quiet lifestyle store inspired by Victoria Falls. T-shirts, enamel mugs and print posters designed for slow moments, wild beauty and memory." />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Victoria Falls home">
+      <span class="brand-name">VICTORIA FALLS</span>
+      <span class="brand-tagline">SIT. BREATHE. FEEL.</span>
+    </a>
+
+    <nav class="nav">
+      <a href="#collection">Collection</a>
+      <a href="#story">Story</a>
+      <button id="cartButton" class="cart-button" type="button">Cart <span id="cartCount">0</span></button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">A quiet lifestyle brand from the edge of the Falls</p>
+        <h1>Slow goods for wild places.</h1>
+        <p class="lede">Minimal pieces inspired by mist, rainforest walks, old road trips, coffee stops, and the feeling of being still beside something powerful.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#collection">Shop the first drop</a>
+          <a class="button secondary" href="#story">Read the feeling</a>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-label="Victoria Falls logo artwork">
+        <img src="assets/logo-primary.svg" alt="Victoria Falls abstract waterfall logo" />
+      </div>
+    </section>
+
+    <section class="intro-strip" aria-label="Brand promise">
+      <span>Slow moments.</span>
+      <span>Wild beauty.</span>
+      <span>Rooted in nature.</span>
+      <span>Carried with you.</span>
+    </section>
+
+    <section id="collection" class="collection">
+      <div class="section-heading">
+        <p class="eyebrow">First Drop</p>
+        <h2>Minimal objects. Sentimental weight.</h2>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card" data-id="vf-tee" data-name="Victoria Falls Heavyweight Tee" data-price="35">
+          <div class="product-media two-up">
+            <img src="assets/product-tshirt-front.svg" alt="Front view of Victoria Falls heavyweight T-shirt" />
+            <img src="assets/product-tshirt-back.svg" alt="Back view of Victoria Falls heavyweight T-shirt" />
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>Heavyweight Tee</h3>
+              <p>Washed ivory, 280 GSM cotton, relaxed fit. Small text logo on front, full artwork on back.</p>
+            </div>
+            <div class="buy-row">
+              <span class="price">$35</span>
+              <button class="add-to-cart" type="button">Add to cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-id="vf-mug" data-name="Victoria Falls Enamel Mug" data-price="18">
+          <div class="product-media">
+            <img src="assets/product-enamel-mug.svg" alt="Victoria Falls enamel mug with artwork" />
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>Enamel Mug</h3>
+              <p>Off-white enamel cup with charcoal artwork. Made for coffee, misty mornings and road trips.</p>
+            </div>
+            <div class="buy-row">
+              <span class="price">$18</span>
+              <button class="add-to-cart" type="button">Add to cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-id="vf-poster" data-name="Victoria Falls Minimal Print Poster" data-price="28">
+          <div class="product-media">
+            <img src="assets/product-poster.svg" alt="Minimal Victoria Falls print poster" />
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>Fine Art Poster</h3>
+              <p>Minimal print poster with soft waterfall composition, coordinates and quiet editorial typography.</p>
+            </div>
+            <div class="buy-row">
+              <span class="price">$28</span>
+              <button class="add-to-cart" type="button">Add to cart</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="story" class="story">
+      <div class="story-image">
+        <img src="assets/story-card.svg" alt="Minimal Victoria Falls lifestyle scene" />
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow">The Feeling</p>
+        <h2>Not a souvenir. A soft memory.</h2>
+        <p>This collection is built around the quieter side of Victoria Falls: rainforest air on skin, old vehicles on long roads, enamel cups, notebooks, soft cotton and the deep sound of water in the distance.</p>
+        <p>It is not designed to shout. It is designed to be kept.</p>
+      </div>
+    </section>
+
+    <section class="checkout-band">
+      <p>Ready to order through Zvakho?</p>
+      <button id="checkoutButton" class="button primary" type="button">Checkout on WhatsApp</button>
+    </section>
+  </main>
+
+  <aside id="cartDrawer" class="cart-drawer" aria-hidden="true">
+    <div class="cart-panel">
+      <div class="cart-head">
+        <h2>Your Cart</h2>
+        <button id="closeCart" type="button" aria-label="Close cart">×</button>
+      </div>
+      <div id="cartItems" class="cart-items"></div>
+      <div class="cart-total">
+        <span>Total</span>
+        <strong id="cartTotal">$0</strong>
+      </div>
+      <button id="drawerCheckout" class="button primary full" type="button">Checkout on WhatsApp</button>
+      <p class="cart-note">This opens WhatsApp with your order details ready to send to Zvakho.</p>
+    </div>
+  </aside>
+
+  <footer class="footer">
+    <img src="assets/logo-text.svg" alt="Victoria Falls text logo" />
+    <p>17.9243° S, 25.8560° E</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

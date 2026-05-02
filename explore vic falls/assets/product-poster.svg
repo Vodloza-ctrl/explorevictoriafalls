@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 900">
+  <rect width="700" height="900" fill="#f7f4ee"/>
+  <rect x="72" y="50" width="556" height="800" fill="#fff" stroke="#ded8cf" stroke-width="3"/>
+  <rect x="110" y="88" width="480" height="560" fill="#f3eee5"/>
+  <path d="M110 470 C190 410,260 445,350 392 C460 330,520 382,590 340 V648 H110 Z" fill="#87937f" opacity=".25"/>
+  <path d="M110 520 C230 460,325 510,425 438 C500 385,545 410,590 390 V648 H110 Z" fill="#5f746e" opacity=".22"/>
+  <g transform="translate(55,210) scale(.98)">
+    <g fill="none" stroke="#242522" stroke-linecap="round">
+    <path d="M160 96 C210 86, 235 96, 300 93 C365 90, 390 85, 440 96" stroke-width="5"/>
+    <path d="M185 96 C190 158, 192 228, 178 283" stroke-width="3"/>
+    <path d="M218 97 C225 166, 225 238, 210 308" stroke-width="7"/>
+    <path d="M250 96 C260 178, 260 258, 245 333" stroke-width="3"/>
+    <path d="M292 96 C300 190, 300 280, 286 371" stroke-width="10"/>
+    <path d="M329 96 C320 182, 325 263, 342 348" stroke-width="4"/>
+    <path d="M366 96 C356 170, 360 253, 375 313" stroke-width="7"/>
+    <path d="M410 96 C398 178, 405 248, 420 303" stroke-width="3"/>
+  </g>
+  </g>
+  <text x="350" y="720" text-anchor="middle" fill="#242522" font-family="Georgia,serif" font-size="42" letter-spacing="13">VICTORIA FALLS</text>
+  <text x="350" y="765" text-anchor="middle" fill="#242522" font-family="Georgia,serif" font-size="18" letter-spacing="7">SIT. BREATHE. FEEL.</text>
+  <text x="350" y="805" text-anchor="middle" fill="#242522" font-family="Georgia,serif" font-size="18" letter-spacing="7">17.9243° S, 25.8560° E</text>
+</svg>
