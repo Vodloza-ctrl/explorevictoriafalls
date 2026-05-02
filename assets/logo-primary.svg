@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 640">
+  <rect width="600" height="640" fill="#fff"/>
+  <g fill="none" stroke="#242522" stroke-linecap="round">
+    <path d="M160 218 C210 208, 235 218, 300 215 C365 212, 390 207, 440 218" stroke-width="5"/>
+    <path d="M185 218 C190 280, 192 350, 178 405" stroke-width="3"/>
+    <path d="M218 219 C225 288, 225 360, 210 430" stroke-width="7"/>
+    <path d="M250 218 C260 300, 260 380, 245 455" stroke-width="3"/>
+    <path d="M292 218 C300 312, 300 402, 286 493" stroke-width="10"/>
+    <path d="M329 218 C320 304, 325 385, 342 470" stroke-width="4"/>
+    <path d="M366 218 C356 292, 360 375, 375 435" stroke-width="7"/>
+    <path d="M410 218 C398 300, 405 370, 420 425" stroke-width="3"/>
+  </g>
+  <g fill="#242522" font-family="Georgia,serif" font-size="48" letter-spacing="15">
+    <text x="75" y="170" transform="rotate(-32 75 170)">V</text>
+    <text x="138" y="122" transform="rotate(-22 138 122)">I</text>
+    <text x="205" y="92" transform="rotate(-10 205 92)">C</text>
+    <text x="285" y="82">T</text>
+    <text x="365" y="92" transform="rotate(10 365 92)">O</text>
+    <text x="430" y="123" transform="rotate(22 430 123)">R</text>
+    <text x="490" y="170" transform="rotate(32 490 170)">I</text>
+    <text x="535" y="220" transform="rotate(42 535 220)">A</text>
+    <text x="126" y="470" transform="rotate(28 126 470)">F</text>
+    <text x="220" y="518" transform="rotate(10 220 518)">A</text>
+    <text x="298" y="530">L</text>
+    <text x="375" y="518" transform="rotate(-10 375 518)">L</text>
+    <text x="462" y="470" transform="rotate(-28 462 470)">S</text>
+  </g>
+  <circle cx="95" cy="320" r="8" fill="#242522"/>
+  <circle cx="505" cy="320" r="8" fill="#242522"/>
+  <text x="300" y="600" text-anchor="middle" fill="#242522" font-family="Georgia,serif" font-size="28" letter-spacing="8">17.9243° S, 25.8560° E</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700">
+  <rect width="700" height="700" fill="#f7f4ee"/>
+  <ellipse cx="322" cy="184" rx="178" ry="34" fill="#ffffff" stroke="#242522" stroke-width="7"/>
+  <path d="M145 185 H500 L455 580 C450 625 190 625 185 580 Z" fill="#fffaf1" stroke="#242522" stroke-width="6"/>
+  <path d="M495 270 C635 260 645 460 487 450" fill="none" stroke="#242522" stroke-width="26"/>
+  <g transform="translate(18,255) scale(.57)">
+    <g fill="none" stroke="#242522" stroke-linecap="round">
+    <path d="M160 96 C210 86, 235 96, 300 93 C365 90, 390 85, 440 96" stroke-width="5"/>
+    <path d="M185 96 C190 158, 192 228, 178 283" stroke-width="3"/>
+    <path d="M218 97 C225 166, 225 238, 210 308" stroke-width="7"/>
+    <path d="M250 96 C260 178, 260 258, 245 333" stroke-width="3"/>
+    <path d="M292 96 C300 190, 300 280, 286 371" stroke-width="10"/>
+    <path d="M329 96 C320 182, 325 263, 342 348" stroke-width="4"/>
+    <path d="M366 96 C356 170, 360 253, 375 313" stroke-width="7"/>
+    <path d="M410 96 C398 178, 405 248, 420 303" stroke-width="3"/>
+  </g>
+  </g>
+  <text x="320" y="505" text-anchor="middle" fill="#242522" font-family="Georgia,serif" font-size="25" letter-spacing="8">VICTORIA</text>
+  <text x="320" y="538" text-anchor="middle" fill="#242522" font-family="Georgia,serif" font-size="25" letter-spacing="8">FALLS</text>
+</svg>
