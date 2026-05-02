@@ -1,26 +1,18 @@
-# Victoria Falls Store
+# Victoria Falls Premium Store Redesign
 
-Premium minimalist storefront for the Victoria Falls lifestyle collection.
+Minimal one-page store using only real supplied images converted to WebP.
 
-## Important setup
+## Products and original prices
+- Heavyweight Tee — $35
+- Enamel Mug — $18
+- Fine Art Poster — $28
 
-Open `assets/script.js` and replace:
-
-```js
-const WHATSAPP_NUMBER = "263000000000";
-```
-
-with your real Zvakho WhatsApp number in international format without `+`.
-
-Example:
-
-```js
-const WHATSAPP_NUMBER = "263771234567";
-```
+## WhatsApp checkout
+Cart checkout sends to: 263719362231
+Keyword included: VictoriaFalls
 
 ## Files
-
 - `index.html`
 - `assets/styles.css`
 - `assets/script.js`
-- SVG product assets and logos
+- `assets/images/*.webp`

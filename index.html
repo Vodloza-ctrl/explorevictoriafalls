@@ -3,143 +3,115 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Victoria Falls — Slow Luxury Goods</title>
-  <meta name="description" content="A quiet lifestyle store inspired by Victoria Falls. T-shirts, enamel mugs and print posters designed for slow moments, wild beauty and memory." />
+  <title>Victoria Falls — Premium Lifestyle Goods</title>
+  <meta name="description" content="Premium minimalist Victoria Falls lifestyle goods: heavyweight t-shirts, enamel mugs and fine art posters. Checkout through Zvakho WhatsApp." />
+  <link rel="preload" href="assets/images/victoria-falls-stone-olive-tee-front.webp" as="image" />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header" aria-label="Site header">
     <a class="brand" href="#top" aria-label="Victoria Falls home">
-      <span class="brand-name">VICTORIA FALLS</span>
-      <span class="brand-tagline">SIT. BREATHE. FEEL.</span>
+      <span>VICTORIA</span><span>FALLS</span>
     </a>
-
-    <nav class="nav">
-      <a href="#collection">Collection</a>
-      <a href="#story">Story</a>
-      <button id="cartButton" class="cart-button" type="button">Cart <span id="cartCount">0</span></button>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#collection">Shop</a>
+      <button class="nav-cart" id="cartButton" type="button" aria-label="Open cart">Cart <span id="cartCount">0</span></button>
     </nav>
   </header>
 
   <main id="top">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">A quiet lifestyle brand from the edge of the Falls</p>
-        <h1>Slow goods for wild places.</h1>
-        <p class="lede">Minimal pieces inspired by mist, rainforest walks, old road trips, coffee stops, and the feeling of being still beside something powerful.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#collection">Shop the first drop</a>
-          <a class="button secondary" href="#story">Read the feeling</a>
+    <section class="hero" aria-label="Victoria Falls hero collection">
+      <div class="hero-carousel" aria-label="T-shirt image carousel">
+        <button class="carousel-control prev" type="button" aria-label="Previous image">‹</button>
+        <div class="carousel-track" id="heroTrack">
+          <img src="assets/images/victoria-falls-stone-olive-tee-front.webp" alt="Stone olive Victoria Falls t-shirt front" />
+          <img src="assets/images/victoria-falls-stone-olive-tee-back.webp" alt="Stone olive Victoria Falls t-shirt back" />
+          <img src="assets/images/victoria-falls-tee-model-front-stone-olive.webp" alt="Model wearing stone olive Victoria Falls t-shirt front" />
+          <img src="assets/images/victoria-falls-tee-model-back-stone-olive.webp" alt="Model wearing stone olive Victoria Falls t-shirt back" />
+          <img src="assets/images/victoria-falls-sand-tee-front.webp" alt="Sand Victoria Falls t-shirt front" />
+          <img src="assets/images/victoria-falls-sand-tee-back.webp" alt="Sand Victoria Falls t-shirt back" />
         </div>
+        <button class="carousel-control next" type="button" aria-label="Next image">›</button>
       </div>
-
-      <div class="hero-art" aria-label="Victoria Falls logo artwork">
-        <img src="assets/logo-primary.svg" alt="Victoria Falls abstract waterfall logo" />
-      </div>
-    </section>
-
-    <section class="intro-strip" aria-label="Brand promise">
-      <span>Slow moments.</span>
-      <span>Wild beauty.</span>
-      <span>Rooted in nature.</span>
-      <span>Carried with you.</span>
-    </section>
-
-    <section id="collection" class="collection">
-      <div class="section-heading">
-        <p class="eyebrow">First Drop</p>
-        <h2>Minimal objects. Sentimental weight.</h2>
-      </div>
-
-      <div class="product-grid">
-        <article class="product-card" data-id="vf-tee" data-name="Victoria Falls Heavyweight Tee" data-price="35">
-          <div class="product-media two-up">
-            <img src="assets/product-tshirt-front.svg" alt="Front view of Victoria Falls heavyweight T-shirt" />
-            <img src="assets/product-tshirt-back.svg" alt="Back view of Victoria Falls heavyweight T-shirt" />
-          </div>
-          <div class="product-info">
-            <div>
-              <h3>Heavyweight Tee</h3>
-              <p>Washed ivory, 280 GSM cotton, relaxed fit. Small text logo on front, full artwork on back.</p>
-            </div>
-            <div class="buy-row">
-              <span class="price">$35</span>
-              <button class="add-to-cart" type="button">Add to cart</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="product-card" data-id="vf-mug" data-name="Victoria Falls Enamel Mug" data-price="18">
-          <div class="product-media">
-            <img src="assets/product-enamel-mug.svg" alt="Victoria Falls enamel mug with artwork" />
-          </div>
-          <div class="product-info">
-            <div>
-              <h3>Enamel Mug</h3>
-              <p>Off-white enamel cup with charcoal artwork. Made for coffee, misty mornings and road trips.</p>
-            </div>
-            <div class="buy-row">
-              <span class="price">$18</span>
-              <button class="add-to-cart" type="button">Add to cart</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="product-card" data-id="vf-poster" data-name="Victoria Falls Minimal Print Poster" data-price="28">
-          <div class="product-media">
-            <img src="assets/product-poster.svg" alt="Minimal Victoria Falls print poster" />
-          </div>
-          <div class="product-info">
-            <div>
-              <h3>Fine Art Poster</h3>
-              <p>Minimal print poster with soft waterfall composition, coordinates and quiet editorial typography.</p>
-            </div>
-            <div class="buy-row">
-              <span class="price">$28</span>
-              <button class="add-to-cart" type="button">Add to cart</button>
-            </div>
-          </div>
-        </article>
+      <div class="hero-copy">
+        <img class="hero-logo" src="assets/images/victoria-falls-logo-refined.webp" alt="Victoria Falls refined logo" />
+        <a class="text-link" href="#collection">View collection</a>
       </div>
     </section>
 
-    <section id="story" class="story">
-      <div class="story-image">
-        <img src="assets/story-card.svg" alt="Minimal Victoria Falls lifestyle scene" />
-      </div>
-      <div class="story-copy">
-        <p class="eyebrow">The Feeling</p>
-        <h2>Not a souvenir. A soft memory.</h2>
-        <p>This collection is built around the quieter side of Victoria Falls: rainforest air on skin, old vehicles on long roads, enamel cups, notebooks, soft cotton and the deep sound of water in the distance.</p>
-        <p>It is not designed to shout. It is designed to be kept.</p>
-      </div>
-    </section>
-
-    <section class="checkout-band">
-      <p>Ready to order through Zvakho?</p>
-      <button id="checkoutButton" class="button primary" type="button">Checkout on WhatsApp</button>
+    <section id="collection" class="collection" aria-label="Collection products">
+      <article class="product" data-product-id="tee">
+        <button class="product-button" type="button" data-open-product="tee">
+          <img src="assets/images/victoria-falls-stone-olive-tee-front.webp" alt="Victoria Falls heavyweight t-shirt front" />
+          <span class="product-meta"><span>Heavyweight Tee</span><span>$35</span></span>
+        </button>
+      </article>
+      <article class="product" data-product-id="mug">
+        <button class="product-button" type="button" data-open-product="mug">
+          <img src="assets/images/victoria-falls-enamel-mug-logo.webp" alt="Victoria Falls enamel mug with black rim" />
+          <span class="product-meta"><span>Enamel Mug</span><span>$18</span></span>
+        </button>
+      </article>
+      <article class="product" data-product-id="poster">
+        <button class="product-button" type="button" data-open-product="poster">
+          <img src="assets/images/victoria-falls-framed-poster-interior.webp" alt="Victoria Falls framed art poster in minimalist interior" />
+          <span class="product-meta"><span>Fine Art Poster</span><span>$28</span></span>
+        </button>
+      </article>
     </section>
   </main>
 
+  <div class="modal" id="productModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close-modal></div>
+    <section class="modal-panel">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close product modal">×</button>
+      <div class="modal-media">
+        <img id="modalImage" src="" alt="" />
+      </div>
+      <form id="productForm" class="modal-form">
+        <p class="modal-kicker">Victoria Falls</p>
+        <h2 id="modalTitle"></h2>
+        <p id="modalPrice" class="modal-price"></p>
+
+        <label>
+          Colour
+          <select id="variantSelect" name="variant"></select>
+        </label>
+        <label id="sizeField">
+          Size
+          <select id="sizeSelect" name="size">
+            <option>S</option><option>M</option><option>L</option><option>XL</option><option>XXL</option>
+          </select>
+        </label>
+        <label>
+          Quantity
+          <input id="quantityInput" name="quantity" type="number" min="1" value="1" />
+        </label>
+
+        <div class="modal-actions">
+          <button class="button dark" type="submit">Add to cart</button>
+          <button class="button ghost" type="button" id="buyNowButton">Checkout</button>
+        </div>
+      </form>
+    </section>
+  </div>
+
   <aside id="cartDrawer" class="cart-drawer" aria-hidden="true">
-    <div class="cart-panel">
+    <div class="drawer-backdrop" id="drawerBackdrop"></div>
+    <section class="cart-panel" aria-label="Shopping cart">
       <div class="cart-head">
-        <h2>Your Cart</h2>
+        <h2>Cart</h2>
         <button id="closeCart" type="button" aria-label="Close cart">×</button>
       </div>
       <div id="cartItems" class="cart-items"></div>
-      <div class="cart-total">
-        <span>Total</span>
-        <strong id="cartTotal">$0</strong>
-      </div>
-      <button id="drawerCheckout" class="button primary full" type="button">Checkout on WhatsApp</button>
-      <p class="cart-note">This opens WhatsApp with your order details ready to send to Zvakho.</p>
-    </div>
+      <div class="cart-total"><span>Total</span><strong id="cartTotal">$0</strong></div>
+      <button id="drawerCheckout" class="button dark full" type="button">Checkout on WhatsApp</button>
+      <p class="cart-note">Your order opens in WhatsApp with the keyword VictoriaFalls.</p>
+    </section>
   </aside>
 
   <footer class="footer">
-    <img src="assets/logo-text.svg" alt="Victoria Falls text logo" />
-    <p>17.9243° S, 25.8560° E</p>
+    <span>17.9243° S, 25.8560° E</span>
   </footer>
 
   <script src="assets/script.js"></script>
