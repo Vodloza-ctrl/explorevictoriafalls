@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 900">
-  <rect width="700" height="900" fill="#f7f4ee"/>
-  <path d="M210 130 L280 90 H420 L490 130 L610 205 L555 310 L505 285 V785 H195 V285 L145 310 L90 205 Z" fill="#f3eee5" stroke="#d8d0c5" stroke-width="3"/>
-  <path d="M280 90 C300 140,400 140,420 90" fill="none" stroke="#d8d0c5" stroke-width="7"/>
-  <text x="350" y="330" text-anchor="middle" fill="#242522" font-family="Georgia,serif" font-size="26" letter-spacing="8">VICTORIA FALLS</text>
-  <text x="350" y="365" text-anchor="middle" fill="#242522" font-family="Georgia,serif" font-size="13" letter-spacing="5">SIT. BREATHE. FEEL.</text>
-  <text x="350" y="390" text-anchor="middle" fill="#242522" font-family="Georgia,serif" font-size="12" letter-spacing="4">17.9243° S, 25.8560° E</text>
-</svg>
