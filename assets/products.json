@@ -1,0 +1,38 @@
+[
+  {
+    "id": "luxury-tshirt",
+    "name": "Luxury Victoria Falls T-Shirt",
+    "price": 50,
+    "currency": "USD",
+    "variants": [
+      "Stone Olive",
+      "Sand"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "enamel-mug",
+    "name": "Victoria Falls Enamel Mug",
+    "price": 25,
+    "currency": "USD",
+    "variants": [
+      "White Enamel"
+    ]
+  },
+  {
+    "id": "framed-poster",
+    "name": "Framed Victoria Falls Poster",
+    "price": 50,
+    "currency": "USD",
+    "variants": [
+      "Framed Interior",
+      "Poster Artwork"
+    ]
+  }
+]
