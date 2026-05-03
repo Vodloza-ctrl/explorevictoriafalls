@@ -28,3 +28,14 @@ wrangler d1 create victoria_falls_store
 wrangler d1 execute victoria_falls_store --file=worker/schema.sql
 
 Paynow endpoint details should be verified with your live Paynow dashboard before production.
+
+
+## Mobile optimization update
+This version includes a responsive CSS patch for:
+- mobile header spacing
+- mobile hero carousel
+- desktop/tablet/mobile product grids
+- mobile product modal
+- full-width mobile cart drawer
+- touch-device hover fallback
+- large desktop refinement
